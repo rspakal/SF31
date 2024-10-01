@@ -1,0 +1,116 @@
+.video-container {
+    display: inline-block;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.navbar p {
+    color: darkgray;
+    padding-left: 15%;
+}
+.navbar p:hover {
+        color: aliceblue;
+    }
+.searchbar:hover {
+    background-color: lightcyan;
+}
+
+header {
+    color: black;
+    padding-left: 1%;
+    padding-top: 1.2%;
+}
+
+#header-index {
+    color: #44453f;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: medium;
+    color: dimgrey;
+    line-height: normal;
+    background-color: linen;
+}
+
+aside {
+    height: 100%; 
+    width: 10%;
+    position: absolute; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: black;
+    overflow-x: hidden; 
+    padding-top: 2%;
+    font-size: large;
+}
+
+body {
+    padding-left: 11%;
+}
+header, body, .video-container {
+    background-color: linen;
+}
+
+.review-container, .review-button {
+    display: inline-block;
+}
+
+.review-text {
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.slider {
+    position: relative;
+    /*display: flex;*/
+    max-width: 100%;
+    max-height: 100%;
+    width: 80%;
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: 10px;
+    
+}
+.slides {
+    width: 100%;
+    min-width: 100%;
+    display: inline-flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+
+button.navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: crimson;
+    color: white;
+    opacity: 0.7;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#btn-left {
+    left: 0;
+}
+#btn-right {
+    right:0;
+}
+
+
